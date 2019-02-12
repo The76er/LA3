@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+html,
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+h2 {
+    padding: 20px 0px 15px 0px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.main-body-container {
+    background-image: url('../img/bg_background.jpg');
+
+    object-fit: contain;
+
+}
+
+.main-header,
+.main-footer {
+    height: 75px;
+    width: 100vw;
+    background-color: rgb(205, 202, 230);
+}
+
+.logo-text {
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+}
+.logo-image{
+    height: 40px;
+    width: 115px;
+}
+
+.main-container {
+    height: calc(100vh - 150px);
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.top-section {
+    width: 100%;
+    background-color: rgb(169, 163, 253);
+    height: 210px;
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+.pic-container {
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.pic-container>img {
+    display: block;
+    object-fit: cover;
+    width: 190px;
+    margin: 10px;
+}
+
+
+.top-inner-section {
+    overflow: auto;
+}
+
+.bottom-section {
+    width: 100%;
+    background-color: blue;
+    height: 70%;
+}
+
+
+
+.sidebar {
+    width: 25%;
+    background-color: rgb(184, 135, 135);
+    height: 100%;
+    float: left;
+}
+
+.sidebar>ul {
+    list-style-type: none;
+}
+
+.sidebar>ul>li a:hover {
+    background-color: rgb(98, 252, 252);
+}
+
+.sidebar>ul>li>a {
+    padding: 15px 20px;
+    display: block;
+    background-color: rgb(184, 135, 135);
+    border: 1px solid #000000;
+    transition-duration: 0.5s;
+}
+
+.gallery {
+    height: 100%;
+    margin-left: 25%;
+    padding: 0px 1em;
+    overflow: auto;
+}
+
+.gallery-container {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.gallery-container>li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.gallery-container>li>img {
+    width: 200px;
+    height: 200px;
+
+}
+.footer-text {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+}
