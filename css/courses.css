@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    
+}
+td{
+    padding: 10px;
+}
+.main-container-grid {
+    display: grid;
+    grid-template-rows: 1fr 13fr 1fr;
+    grid-row-gap: 1em;
+}
+.r1, .r3{
+    background-color: #ccc;
+}
+.logo-name{
+    line-height: 50px;
+    margin-right: 10px;
+}
+.r1,
+.r2,
+.r3 {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    grid-column-gap: 1em;
+}
+
+.r2 {
+    background-color: #f1f1f1;
+}
+.r2c1, .r2c3{
+    background-color: #ccc;
+}
+.left-nav{
+    
+}
+.left-nav>li{
+    border: 1px solid #f1f1f1;
+}
+.left-nav >li>a{
+    display: block;
+    padding: 15px 15px;
+}
+.course-table{
+    table-layout: fixed;
+    width: 100%;
+}
+.course-table>thead>tr>td {
+    border: 1px solid #c00808;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:rgb(141, 214, 243);
+}
+.course-table>thead>tr{
+    height: 50px;
+    text-align: center;
+}
+.course-table>tbody>tr{
+    height: 28px;
+    
+}
+.course-table>tbody>tr>td{
+    border: 1px solid rgb(241, 131, 214)
+}
+.copyright-text{
+    align-self: center;
+    justify-self: center;
+}
