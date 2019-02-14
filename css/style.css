@@ -125,6 +125,7 @@ a {
     background-color: rgb(184, 135, 135);
     border: 1px solid #000000;
     transition-duration: 0.5s;
+    text-transform: capitalize;
 }
 
 .gallery {
