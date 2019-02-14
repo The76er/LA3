@@ -35,6 +35,8 @@ td{
 
 .r2 {
     background-color: #f1f1f1;
+    width: 90%;
+    margin: 0px auto;
 }
 .r2c1, .r2c3{
     background-color: #ccc;
