@@ -10,6 +10,11 @@ body {
     width: 100vw;
     
 }
+.box-shadow {
+    -webkit-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+}
 td{
     padding: 10px;
 }
@@ -17,6 +22,13 @@ td{
     display: grid;
     grid-template-rows: 1fr 13fr 1fr;
     grid-row-gap: 1em;
+    background-image: url('../img/bg_background.jpg');
+}
+.sub-heading, .nav-heading{
+    margin: 10px 0px 15px;
+}
+.nav-heading{
+    text-align: center;
 }
 .r1, .r3{
     background-color: #ccc;
@@ -35,19 +47,32 @@ td{
 
 .r2 {
     background-color: #f1f1f1;
+    width: 90%;
+    margin: 0px auto;
 }
 .r2c1, .r2c3{
     background-color: #ccc;
 }
+.r2c3{
+    padding: 0px 15px 10px
+}
 .left-nav{
-    
+    list-style-type: none;
 }
 .left-nav>li{
     border: 1px solid #f1f1f1;
+    
 }
 .left-nav >li>a{
     display: block;
     padding: 15px 15px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.left-nav >li>a:hover{
+    background-color: rgb(98, 252, 252);
 }
 .course-table{
     table-layout: fixed;
